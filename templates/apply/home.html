@@ -1,0 +1,11 @@
+{% extends "apply/base.html" %}
+{% block content %}
+{% load static %}
+<title>Home</title>
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+<img id="bg" src="{% static 'images/bg.jpg' %}" alt="">
+<div class="intro">
+    <h1>Find your job with JobSecure.....</h1>
+    <a href="{% url 'apply' %}"><button class="btn btn-success">Apply Now</button></a>
+</div>
+{% endblock %}

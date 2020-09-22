@@ -1,0 +1,16 @@
+#logo{
+    width:50%;
+    height: 50%;
+}
+.navbar-nav > li{
+    padding-left:70px;
+    padding-right:70px;
+  }
+
+form input{
+    margin:10px;
+    font-size:18px;
+}
+h1{
+    margin:10px;
+}
